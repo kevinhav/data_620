@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-For our first project, we are going to extract genre and artist data from the Spotify API. We will then use this data to create a network of artists and genres to analyze overlap, centrality, and breadth of the network to better understand how artists move between and across genres.
+For our first project, we will analyze a Spotify artist collaboration dataset sourced from Kaggle (https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset), which contains artist names, genre classifications, collaboration relationships, and popularity metrics.
+
+Using this dataset, we will construct an artist collaboration network to examine structural influence within the music industry. The network will allow us to explore how artists are embedded within collaborative structures and whether their structural positions differ across musical genres.
 
 ## Network Structure
 
@@ -10,8 +12,8 @@ In this network, each **node** represents an artist, and an **edge** exists betw
 
 We will use this network to calculate the following centrality measures for each artist:
 
-- **Degree Centrality** — measures differences in connectivity across genres
-- **Eigenvector Centrality** — measures influence within the collaboration network
+- **Degree Centrality** — measures the number of direct collaborators an artist has, capturing collaboration volume.
+- **Eigenvector Centrality** — measures structural influence by accounting for both the number and importance of an artist’s collaborators.
 
 By comparing these centrality measures across genre groups, we aim to better understand how collaboration patterns vary across musical genres and whether certain genres occupy more central or influential positions within the broader collaboration network.
 

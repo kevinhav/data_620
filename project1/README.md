@@ -6,6 +6,20 @@ For our first project, we will analyze a Spotify artist collaboration dataset so
 
 Using this dataset, we will construct an artist collaboration network to examine structural influence within the music industry. The network will allow us to explore how artists are embedded within collaborative structures and whether their structural positions differ across musical genres.
 
+## Data Loading and Preparation Plan
+
+The dataset will be downloaded from Kaggle and loaded into Python using the Pandas library.
+
+The following steps will be taken to prepare the data for network construction:
+
+1. Import the dataset into a Pandas DataFrame.
+2. Clean and standardize artist names to ensure consistency.
+3. Extract collaboration relationships by identifying tracks with multiple credited artists.
+4. Filter the dataset to include the top artists by collaboration frequency.
+5. Restrict the analysis to the top 5 most represented genres to ensure balanced comparison.
+6. Construct an edge list representing artist collaborations.
+7. Use NetworkX to build the artist collaboration graph.
+
 ## Network Structure
 
 In this network, each **node** represents an artist, and an **edge** exists between two artists if they appear on the same track. Each artist node will include a categorical attribute representing their **primary genre**.
@@ -31,4 +45,5 @@ In addition to comparing centrality across genres, we will explore a hypothetica
 
 > Artists with higher degree and eigenvector centrality will have higher Spotify popularity scores, as increased collaboration and network influence may expand audience reach.
 
-This allows us to examine whether **structural position within the collaboration network** is associated with measurable success outcomes.
+This allows us to examine whether **structural position within the collaboration network** is associated with measurable success outcomes. 
+If certain genres exhibit significantly higher degree centrality, this may indicate that those genres rely more heavily on collaborative production structures, potentially contributing to broader audience reach and commercial success.

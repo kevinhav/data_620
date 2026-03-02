@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:holoviews.org)",
-      "WebFetch(domain:www.holoviews.org)"
+      "WebFetch(domain:www.holoviews.org)",
+      "Bash(uv sync:*)",
+      "Bash(/c/Users/Kevin/projects/data_620/project1/project_1.ipynb:*)",
+      "Bash(python3:*)",
+      "Bash(.venv/Scripts/python:*)",
+      "WebFetch(domain:developer.spotify.com)"
     ]
   }
 }

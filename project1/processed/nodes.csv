@@ -1,65 +1,118 @@
-id,type
-Derek & The Dominos,artist
-"Fear, and Loathing in Las Vegas",artist
-Badfinger,artist
-José González,artist
-The Offspring,artist
-Bell Bottom Blues,track
-Heartbeats,track
-Self Esteem,track
-"You're Gonna Go Far, Kid",track
-The Gong of Knockout,track
-Have You Ever Loved A Woman?,track
-Just Awake,track
-Maybe Tomorrow - Remastered 2010,track
-Why Don't You Get A Job,track
-Crosses,track
-Come And Get It - Remastered 2010,track
-El Invento,track
-Apple Of My Eye - Remastered 2010,track
-Want You Bad,track
-Layla - 40th Anniversary Version / 2010 Remastered,track
-The Kids Aren't Alright,track
-Christmas (Baby Please Come Home),track
-Teardrop,track
-Line of Fire,track
-This Is How We Walk on the Moon,track
-Baby Blue - Remastered 2010,track
-Sweet Tuesday Morning - Remastered 2010,track
-Visions,track
-Step Out,track
-I'd Die Babe - Remastered 2010,track
-Let Me Hear,track
-Stay Alive,track
-No Matter What - Remastered 2010,track
-Believe Me - Remastered 2010,track
-Layla,track
-Without You - Remastered 2010,track
-Day After Day - Remastered 2010,track
-Pretty Fly (For A White Guy),track
-Dear Angie - Remastered 2010,track
-trance,genre
-indie-pop,genre
-rock,genre
-punk,genre
-singer-songwriter,genre
-j-pop,genre
-metal,genre
-country,genre
-metalcore,genre
-alt-rock,genre
-goth,genre
-swedish,genre
-power-pop,genre
-punk-rock,genre
-ska,genre
-blues,genre
-indie,genre
-j-rock,genre
-psych-rock,genre
-hard-rock,genre
-folk,genre
-alternative,genre
-hardcore,genre
-songwriter,genre
-british,genre
+id,type,genre_category
+The Offspring,artist,
+Badfinger,artist,
+Prateek Kuhad,artist,
+Derek & The Dominos,artist,
+Ritviz,artist,
+The Last Time,track,
+cold/mess,track,
+Dear Angie - Remastered 2010,track,
+Drown,track,
+Voh,track,
+cold/mess (on piano),track,
+did you/fall apart,track,
+cold / mess - Audiotree Live Version,track,
+Kasoor,track,
+Tere Hi Hum,track,
+Maybe Tomorrow - Remastered 2010,track,
+Raat Raazi,track,
+Come And Get It - Remastered 2010,track,
+Ved,track,
+Just to Be With You,track,
+Full Time Lover,track,
+Layla - 40th Anniversary Version / 2010 Remastered,track,
+Day After Day - Remastered 2010,track,
+Flames,track,
+"Kasoor (From ""Dhamaka"") - Acoustic",track,
+Oh Love,track,
+Cold Shoulders,track,
+fighter,track,
+All I Need,track,
+Why Don't You Get A Job,track,
+Taj,track,
+Mimmi,track,
+Tune Kaha,track,
+Apple Of My Eye - Remastered 2010,track,
+Aaj Na,track,
+Chandamama,track,
+Favorite Peeps,track,
+Layla,track,
+Want You Bad,track,
+Aavegi,track,
+Barso,track,
+The Kids Aren't Alright,track,
+Hollow,track,
+Held You Tight,track,
+Khone Do,track,
+Aas Paas,track,
+Liggi,track,
+"You're Gonna Go Far, Kid",track,
+Go,track,
+Sun Toh,track,
+Jeet,track,
+Mehfooz,track,
+Pause,track,
+Raahi,track,
+Yeh Pal,track,
+Udd Gaye,track,
+Kasoor - Acoustic,track,
+100 words,track,
+Have You Ever Loved A Woman?,track,
+for your time,track,
+Sage,track,
+Self Esteem,track,
+Face,track,
+Kadam,track,
+Tum Jab Paas,track,
+Jeet 2.0,track,
+with you/for you,track,
+Without You - Remastered 2010,track,
+Sweet Tuesday Morning - Remastered 2010,track,
+Something Wrong,track,
+Kahaan Ho Tum,track,
+Pran,track,
+Shehron Ke Raaz,track,
+A Shot of Alcohol,track,
+for your time - Audiotree Live Version,track,
+Bell Bottom Blues,track,
+Pukaar,track,
+Baby Blue - Remastered 2010,track,
+Co2,track,
+Thandi Hawa,track,
+Just A Word,track,
+I'd Die Babe - Remastered 2010,track,
+Believe Me - Remastered 2010,track,
+Artist,track,
+Drown - Audiotree Live Version,track,
+No Matter What - Remastered 2010,track,
+Into the Night,track,
+Bloom,track,
+Saansein,track,
+Pretty Fly (For A White Guy),track,
+Heartbroken,track,
+Christmas (Baby Please Come Home),track,
+alternative,genre,Alternative
+rock,genre,Rock
+songwriter,genre,Indie
+singer-songwriter,genre,Indie
+pop,genre,Pop
+edm,genre,House / Electronic
+indie,genre,Indie
+indie-pop,genre,Indie
+alt-rock,genre,Alternative
+psych-rock,genre,Rock
+country,genre,Folk
+blues,genre,Blues
+metal,genre,Rock
+j-rock,genre,Rock
+punk,genre,Rock
+j-pop,genre,Pop
+pop-film,genre,Pop
+hip-hop,genre,Rap / Hiphop
+indian,genre,World
+power-pop,genre,Pop
+punk-rock,genre,Rock
+british,genre,Rock
+folk,genre,Folk
+ska,genre,Alternative
+hard-rock,genre,Rock

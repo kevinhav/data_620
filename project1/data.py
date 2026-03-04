@@ -120,6 +120,15 @@ GENRE_MAP = {
 }
 
 
+def split_artists(df: pl.DataFrame) -> pl.DataFrame:
+    """Explode the artists column on ';' so each artist gets its own row."""
+    return df.with_columns(
+        pl.col("artists").str.split(";").alias("artists")
+    ).explode("artists").with_columns(
+        pl.col("artists").str.strip_chars()
+    )
+
+
 def get_top_n_artists(df: pl.DataFrame, n: int = 5) -> pl.Series:
     """Return the n artists with the most distinct genres."""
     return (
@@ -192,8 +201,9 @@ def save(nodes: pl.DataFrame, edges: pl.DataFrame, output_dir: Path) -> None:
 
 if __name__ == "__main__":
     df = pl.read_csv(Path(r"project1\dataset.csv"))
+    df = split_artists(df)
     top_artists = get_top_n_artists(df, n=5)
-    df_top = df.filter(pl.col("artists").is_in(top_artists))
+    df_top = df.filter(pl.col("artists").is_in(top_artists.to_list()))
     nodes = build_nodes(df_top)
     edges = build_edges(df_top)
     save(nodes, edges, Path(r"project1\processed"))

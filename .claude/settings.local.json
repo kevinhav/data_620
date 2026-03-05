@@ -7,7 +7,10 @@
       "Bash(/c/Users/Kevin/projects/data_620/project1/project_1.ipynb:*)",
       "Bash(python3:*)",
       "Bash(.venv/Scripts/python:*)",
-      "WebFetch(domain:developer.spotify.com)"
+      "WebFetch(domain:developer.spotify.com)",
+      "Bash(PYTHONUTF8=1 uv run:*)",
+      "Bash(git stash:*)",
+      "Bash(git checkout:*)"
     ]
   }
 }

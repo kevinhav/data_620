@@ -122,10 +122,10 @@ GENRE_MAP = {
 
 def split_artists(df: pl.DataFrame) -> pl.DataFrame:
     """Explode the artists column on ';' so each artist gets its own row."""
-    return df.with_columns(
-        pl.col("artists").str.split(";").alias("artists")
-    ).explode("artists").with_columns(
-        pl.col("artists").str.strip_chars()
+    return (
+        df.with_columns(pl.col("artists").str.split(";").alias("artists"))
+        .explode("artists")
+        .with_columns(pl.col("artists").str.strip_chars())
     )
 
 
@@ -171,23 +171,17 @@ def build_nodes(df: pl.DataFrame) -> pl.DataFrame:
 
 def build_edges(df: pl.DataFrame) -> pl.DataFrame:
     """Build artist->track and track->genre edge DataFrames and concatenate."""
-    artist_track_edges = (
-        df.select(
-            pl.col("artists").alias("source"),
-            pl.col("track_name").alias("target"),
-            pl.lit("artist_track").alias("relationship"),
-        )
-        .unique()
-    )
+    artist_track_edges = df.select(
+        pl.col("artists").alias("source"),
+        pl.col("track_name").alias("target"),
+        pl.lit("artist_track").alias("relationship"),
+    ).unique()
 
-    track_genre_edges = (
-        df.select(
-            pl.col("track_name").alias("source"),
-            pl.col("track_genre").alias("target"),
-            pl.lit("track_genre").alias("relationship"),
-        )
-        .unique()
-    )
+    track_genre_edges = df.select(
+        pl.col("track_name").alias("source"),
+        pl.col("track_genre").alias("target"),
+        pl.lit("track_genre").alias("relationship"),
+    ).unique()
 
     return pl.concat([artist_track_edges, track_genre_edges])
 
@@ -202,7 +196,7 @@ def save(nodes: pl.DataFrame, edges: pl.DataFrame, output_dir: Path) -> None:
 if __name__ == "__main__":
     df = pl.read_csv(Path(r"project1\dataset.csv"))
     df = split_artists(df)
-    top_artists = get_top_n_artists(df, n=5)
+    top_artists = get_top_n_artists(df, n=10)
     df_top = df.filter(pl.col("artists").is_in(top_artists.to_list()))
     nodes = build_nodes(df_top)
     edges = build_edges(df_top)

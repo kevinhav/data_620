@@ -1,394 +1,363 @@
-id,type,genre_category
-R3HAB,artist,
-David Guetta,artist,
-Skrillex,artist,
-Robin Schulz,artist,
-Camila Cabello,artist,
-Tiësto,artist,
-Katy Perry,artist,
-Ellie Goulding,artist,
-The Weeknd,artist,
-Dua Lipa,artist,
-RELATE (R3HAB Remix),track,
-Moth To A Flame,track,
-High (& Dua Lipa),track,
-Save Your Tears,track,
-Ritual,track,
-Physical,track,
-Imagine - Tiësto Remix,track,
-Hawái - Remix,track,
-Crazy What Love Can Do,track,
-Lullaby,track,
-Where We Started,track,
-Scared to Be Lonely,track,
-International - Skrillex Remix,track,
-Jackie Chan,track,
-Enola Gay - Dancefloor Killa Remix Edit,track,
-"Ego Death (feat. Kanye West, FKA twigs & Skrillex)",track,
-Easy Lover,track,
-Complicated (feat. Kiiara),track,
-One Kiss (with Dua Lipa) - R3HAB Remix,track,
-Worlds On Fire,track,
-Split (Only U),track,
-Beautiful (feat. Camila Cabello),track,
-I'm Good (Blue),track,
-Mind (feat. Kai),track,
-Levitating (feat. DaBaby),track,
-Señorita,track,
-When I'm Gone,track,
-Creep (mint Singles),track,
-Bad Things,track,
-It's Ours,track,
-Love Tonight - David Guetta Remix Edit,track,
-On Repeat,track,
-Levitating,track,
-"The Island, Pt. 1 (Dawn) - Skrillex Remix",track,
-You Right,track,
-If You Really Love Me (How Will I Know),track,
-Dark Horse,track,
-Mama (feat. Ellie Goulding),track,
-Written In Reverse,track,
-Scared To Be Lonely - Brooks Remix,track,
-Odd Look,track,
-Play Hard (feat. Ne-Yo & Akon) - New Edit,track,
-All We Got (feat. KIDDO),track,
-Never Be the Same,track,
-Hot In It - Tiësto’s Hotter Mix,track,
-Over Now (with The Weeknd),track,
-Mind Dimension - Tiësto Remix,track,
-"Still Falling For You - From ""Bridget Jones's Baby""",track,
-Hey Mama,track,
-The Business,track,
-Sad Boy (feat. Ava Max & Kylie Cantrall),track,
-First Time,track,
-Con Calma - Remix,track,
-Young Right Now,track,
-Attention - David Guetta Remix,track,
-No Lie,track,
-Saint Laurent,track,
-Heatwave (feat. Akon),track,
-Stars Align (with Jolin Tsai),track,
-Silence - Tiësto's Big Room Remix,track,
-After Hours,track,
-FRIENDS - R3hab Remix,track,
-Bésame (I Need You),track,
-BED,track,
-Make It (feat. The Weeknd) [DJAmg Remixer],track,
-Lights,track,
-Flux,track,
-Bam Bam (feat. Ed Sheeran),track,
-God Is A Dancer - Toby Green Remix,track,
-Mad Love,track,
-Secrets - Radio Edit,track,
-Mas Gasolina,track,
-"Moth To A Flame (with The Weeknd, Moojo) - Moojo Remix",track,
-Family,track,
-One Kiss (with Dua Lipa) - Valentino Khan Remix,track,
-HUMBLE. - SKRILLEX REMIX,track,
-I'm Good (Blue) - REAPER Remix,track,
-How We Party,track,
-How Long Will I Love You - Bonus Track,track,
-Lullaby (GATTÜSO Remix),track,
-tears in the club,track,
-Beautiful,track,
-Sway My Way (with Amy Shark),track,
-So Far Away (feat. Jamie Scott & Romy Dya),track,
-Shot Me Down (feat. Skylar Grey) - Radio Edit,track,
-Alive,track,
-I Kissed A Girl,track,
-Potion (with Dua Lipa & Young Thug),track,
-Pepas - Tiësto Remix,track,
-Harleys In Hawaii,track,
-Bun Up the Dance,track,
-Break My Heart,track,
-Something In The Way You Move,track,
-Speechless (feat. Erika Sirola),track,
-Ghost,track,
-Electric - Pokemon 25 Version,track,
-My Oh My (feat. DaBaby),track,
-Supersonic (VIP),track,
-Your Love (9PM) - Tiësto Remix,track,
-Southern Sun - DJ Tiësto Remix,track,
-Another Love - Tiësto Remix,track,
-OK,track,
-Cold Heart - Acoustic,track,
-I Need Your Love (feat. Ellie Goulding),track,
-The Motto - Tiësto’s VIP Mix,track,
-I Was Never There,track,
-All Into Nothing,track,
-Electricity (with Dua Lipa),track,
-I Feel It Coming,track,
-I'm Good (Blue) - Extended,track,
-Floating Through Space,track,
-In Your Eyes (feat. Alida),track,
-Pepas - David Guetta Remix,track,
-In Your Eyes (feat. Alida) - LUM!X Remix,track,
-Starboy,track,
-Last Hurrah - David Guetta Remix,track,
-Be Okay (with HRVY),track,
-Don’t Go (with Justin Bieber & Don Toliver),track,
-Another Life,track,
-Sun Will Shine - James Carter Remix,track,
-Close To Me (with Diplo) (feat. Swae Lee),track,
-Cozy Little Christmas,track,
-Ain't My Fault - R3hab Remix,track,
-Baila Conmigo,track,
-Mi Persona Favorita,track,
-24K Magic - R3hab Remix,track,
-Heartbreak Anthem (with David Guetta & Little Mix),track,
-No Lie - Sam Feldt Remix,track,
-Secrets,track,
-Domino - David Guetta Remix,track,
-Havana (feat. Young Thug),track,
-Pump It Louder,track,
-No Lie - Delirious & Alex K Remix,track,
-Bad Man - Skrillex Remix,track,
-Hate Me (with Juice WRLD),track,
-Play Hard (feat. Ne-Yo & Akon),track,
-Babylon (feat. Denzel Curry) - Skrillex & Ronny J Remix,track,
-Sunshine,track,
-New Love - Paraone Remix,track,
-Most People (with Lukas Graham),track,
-"Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack) - DJ LBR Remix",track,
-Outside (feat. Ellie Goulding),track,
-Gettin' over You - Aviccii's Vocal Mix at Night,track,
-"Family (feat. Bebe Rexha, Ty Dolla $ign & A Boogie Wit da Hoodie)",track,
-AEIOU,track,
-Miss You,track,
-Love Me Harder,track,
-Lost in the Fire (feat. The Weeknd),track,
-Peru - R3HAB Remix,track,
-365 - Zedd Remix,track,
-The Motto,track,
-Selfish Love (with Selena Gomez) - Tiësto Remix,track,
-Chemicals (feat. Thomas Troelsen),track,
-Call Me (with R3HAB & Timmy Trumpet),track,
-The First Note Is Silent (feat. Tiësto & Underworld) - Instrumental,track,
-Party Time,track,
-Out of Time,track,
-Pepas - David Guetta Remix - Radio Edit,track,
-Waves - Robin Schulz Radio Edit,track,
-Lose You,track,
-"Supersonic (My Existence) [with Noisia, josh pan & Dylan Brady]",track,
-Moth To A Flame (feat. The Weeknd) - Adriatique Remix,track,
-Prayer in C - Robin Schulz Radio Edit,track,
-Promises (with Sam Smith) - David Guetta Remix,track,
-The Motto - Robin Schulz Remix,track,
-When I’m Gone (with Katy Perry),track,
-Wave Rider (From Hotel Transylvania 3),track,
-Element,track,
-The Hills,track,
-Un Día (One Day),track,
-Purple Lamborghini (with Rick Ross),track,
-IDGAF,track,
-Lights - Single Version,track,
-Karate,track,
-Chained To The Rhythm,track,
-Hot in It,track,
-Without You (feat. Usher),track,
-Can U Dance (To My Beat),track,
-One Kiss (with Dua Lipa),track,
-Love Me Like You Do,track,
-Sugar (feat. Francesco Yates) - Billions Club Remix,track,
-Remember,track,
-UN DIA (ONE DAY) (Feat. Tainy),track,
-Let It Die,track,
-Sexy Bitch (feat. Akon),track,
-Rockin' Around The Christmas Tree - From The Kacey Musgraves Christmas Show,track,
-911,track,
-Seavolution (From Hotel Transylvania 3),track,
-Slow Grenade,track,
-Bangarang (feat. Sirah),track,
-Drive,track,
-Homesick,track,
-The Business - 220 KID Remix,track,
-One More Dance (with Alida),track,
-In Da Getto,track,
-Say My Name,track,
-Power,track,
-Where Are Ü Now (with Justin Bieber),track,
-Rockstar Baby (feat. Mougleta),track,
-The One That Got Away,track,
-Take My Breath - Single Version,track,
-Red Lips (feat. Sam Bruno) - Skrillex Remix,track,
-UN DIA (ONE DAY),track,
-Cold Heart - PNAU Remix,track,
-365,track,
-Call Out My Name,track,
-Sweat - Remix,track,
-Runaway (with Sigala & JP Cooper),track,
-Alane,track,
-Easy Lover (feat. Big Sean),track,
-Let Me Love You - Tiësto's AFTR:HRS Mix,track,
-STARSTRUKK (feat. Katy Perry),track,
-Ocean (feat. Khalid) - David Guetta Remix,track,
-Love Is Gone - R3HAB Remix,track,
-Family Affair (Dance for Me),track,
-Ritual - Benny Benassi & BB Team Remix,track,
-Die For You,track,
-"Love Me Like You Do - From ""Fifty Shades Of Grey""",track,
-Sugar,track,
-Dangerous,track,
-All We Got (feat. KIDDO) - Joel Corry Remix,track,
-Good Things Fall Apart (with Jon Bellion) [Tiësto's Big Room Remix],track,
-Bad Love,track,
-Stars Align (with Jolin Tsai) [Alle Farben Remix],track,
-Break the Rules - Tiësto Remix,track,
-I’ll Take You High,track,
-Sun Goes Down (feat. Jasmine Thompson) - Radio Mix,track,
-Sahara,track,
-The Only Way Is Up,track,
-Bésame (I Need You) (with TINI & Reik),track,
-What Would You Do?,track,
-God Only Knows (R3HAB Remix),track,
-My Pony,track,
-Love We Lost (with R3HAB),track,
-Don't Be Shy,track,
-Hero,track,
-All The Way Up (Remix),track,
-Lovers on the Sun (feat. Sam Martin),track,
-Burn The Ships (R3HAB Remix),track,
-BOOM,track,
-Savage,track,
-"The Business, Pt. II",track,
-Headlights (feat. Ilsey),track,
-Moth To A Flame (with The Weeknd),track,
-Burn,track,
-Smells Like Teen Spirit,track,
-Let Me Love You - R3hab Remix,track,
-Return To Love,track,
-Dancing In The Moonlight (feat. NEIMY) - Tiësto Remix,track,
-Hate Me,track,
-"Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)",track,
-Don’t Leave,track,
-God is A DJ,track,
-Who You Love (feat. Katy Perry),track,
-"Or Nah (feat. The Weeknd, Wiz Khalifa & DJ Mustard) - Remix",track,
-Physical - Erika de Casier Remix,track,
-Summer Days (feat. Macklemore & Patrick Stump of Fall Out Boy) - Tiësto Remix,track,
-Somewhere Over the Rainbow / What a Wonderful World,track,
-WARLORDZ (feat. Skrillex),track,
-I Got A Feeling,track,
-Cold Heart - PS1 Remix,track,
-Wasted,track,
-In Your Arms (For An Angel),track,
-Carry You Home (feat. StarGate & Aloe Blacc),track,
-E.T.,track,
-Make It Bun Dem,track,
-All Around the World (La La La),track,
-Hot In It,track,
-This One's for You (feat. Zara Larsson) (Official Song UEFA EURO 2016),track,
-Starry Eyed,track,
-Am I The Only One (with Astrid S & HRVY),track,
-BLUE,track,
-Or Nah - Remix,track,
-Layla - English Version,track,
-Don't Start Now,track,
-Shooting Darts (with R3HAB & Prezioso),track,
-Drive - Edit,track,
-Oh Child,track,
-Harder (feat. Talay Riley),track,
-The Business - SWACQ Remix,track,
-I'm Good (Blue) - REAPER Extended Remix,track,
-Instagram - R3HAB Remix,track,
-Almost Like Praying (feat. Artists for Puerto Rico),track,
-Dangerous - David Guetta Banging Remix,track,
-Don't Give Up On Me Now,track,
-Kiss and Make Up,track,
-Satisfaction,track,
-God Is A Dancer,track,
-Moth To A Flame (with The Weeknd) - Extended Mix,track,
-Love Is Gone - Tiësto Remix,track,
-tears in the club (feat. the weeknd),track,
-Sugar (feat. Francesco Yates),track,
-2U (feat. Justin Bieber),track,
-Nothing Really Matters,track,
-"Feels (feat. Pharrell Williams, Katy Perry & Big Sean)",track,
-Freedom,track,
-Where Them Girls At (feat. Nicki Minaj & Flo Rida),track,
-L'amour toujours (feat. Delaney Jane) - Tiësto Edit,track,
-All Around the World (La La La) [Marnik Remix],track,
-Distant Memory (with Timmy Trumpet x W&W),track,
-Instagram - Bassjackers Remix,track,
-Hey Ma (with J Balvin & Pitbull feat. Camila Cabello),track,
-More Than OK (with Clara Mae),track,
-On My Mind,track,
-God Is A Dancer (with Mabel),track,
-New Rules - Acoustic,track,
-New Rules,track,
-WOW,track,
-Close To Me,track,
-Instagram,track,
-God is A DJ - Extended,track,
-Lights - Sped Up Version,track,
-Last Friday Night (T.G.I.F.),track,
-All By Myself,track,
-If Only,track,
-Won't Stop Rocking,track,
-Jackie Chan - Keanu Silva Remix,track,
-Know No Better,track,
-Ego Death,track,
-Oohla Oohla,track,
-Worlds On Fire (with R3HAB & Au/Ra),track,
-Memories (feat. Kid Cudi),track,
-Tears In The Club (feat. The Weeknd),track,
-Willst du - Radio Mix,track,
-Flames (with ZAYN),track,
-Firework,track,
-Blinding Lights,track,
-One Kiss,track,
-My Pony (R3HAB VIP Remix),track,
-In Your Eyes,track,
-All We Got (feat. KIDDO) - Ofenbach Remix,track,
-One Kiss (with Dua Lipa) - Oliver Heldens Remix,track,
-Weekend On A Tuesday,track,
-Dangerous (feat. Sam Martin),track,
-Titanium (feat. Sia),track,
-Red Lights,track,
-Sun Will Shine,track,
-alternative,genre,Alternative
-songwriter,genre,Indie
-piano,genre,Acoustic
-rock,genre,Rock
-trance,genre,House / Electronic
-dubstep,genre,House / Electronic
-funk,genre,R&B
-minimal-techno,genre,House / Electronic
-punk,genre,Rock
-house,genre,House / Electronic
-electronic,genre,House / Electronic
-latino,genre,World
-trip-hop,genre,Rap / Hiphop
-edm,genre,House / Electronic
-reggae,genre,R&B
-hip-hop,genre,Rap / Hiphop
-dub,genre,R&B
-swedish,genre,World
-punk-rock,genre,Rock
-party,genre,House / Electronic
-drum-and-bass,genre,House / Electronic
-soul,genre,R&B
-electro,genre,House / Electronic
-show-tunes,genre,Pop
-deep-house,genre,House / Electronic
-singer-songwriter,genre,Indie
-synth-pop,genre,Pop
-german,genre,World
-country,genre,Folk
-hardcore,genre,Rock
-chill,genre,R&B
-techno,genre,House / Electronic
-french,genre,World
-dancehall,genre,Rap / Hiphop
-opera,genre,Acoustic
-progressive-house,genre,House / Electronic
-indie,genre,Indie
-dance,genre,House / Electronic
-club,genre,House / Electronic
-pop,genre,Pop
-breakbeat,genre,House / Electronic
-world-music,genre,World
-latin,genre,World
-indie-pop,genre,Indie
-spanish,genre,World
-reggaeton,genre,Rap / Hiphop
+id,type
+Tiësto,artist
+Dua Lipa,artist
+Ty Dolla $ign,artist
+Robin Schulz,artist
+Sean Paul,artist
+Camila Cabello,artist
+David Guetta,artist
+Skrillex,artist
+The Weeknd,artist
+Katy Perry,artist
+Oohla Oohla,track
+How We Do It (feat. Pia Mia),track
+The One That Got Away,track
+Quality,track
+Good Things Fall Apart (with Jon Bellion) [Tiësto's Big Room Remix],track
+In Da Getto,track
+Chained To The Rhythm,track
+Starboy,track
+Element,track
+2U (feat. Justin Bieber),track
+Havana (feat. Young Thug),track
+Hey DJ - Remix,track
+Where We Started,track
+Get Busy,track
+Jackie Chan,track
+Cheap Thrills (feat. Sean Paul),track
+Scared to Be Lonely,track
+This One's for You (feat. Zara Larsson) (Official Song UEFA EURO 2016),track
+"Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)",track
+Pepas - David Guetta Remix,track
+"The Business, Pt. II",track
+Instagram - Bassjackers Remix,track
+Sun Will Shine - James Carter Remix,track
+Last Friday Night (T.G.I.F.),track
+Cold Heart - PNAU Remix,track
+Break It Off (feat. Rihanna),track
+Out of Time,track
+Party Time,track
+Your Turn,track
+Secrets - Radio Edit,track
+Naked Truth,track
+Mad Love,track
+Sweat - Remix,track
+Secrets,track
+Physical - Erika de Casier Remix,track
+Don't Start Now,track
+Temperature,track
+The Motto - Tiësto’s VIP Mix,track
+Dancing In The Moonlight (feat. NEIMY) - Tiësto Remix,track
+Where Them Girls At (feat. Nicki Minaj & Flo Rida),track
+Like Glue,track
+Almost Like Praying (feat. Artists for Puerto Rico),track
+Dangerous (feat. Sam Martin),track
+Another Love - Tiësto Remix,track
+Willst du - Radio Mix,track
+Promises (with Sam Smith) - David Guetta Remix,track
+She Doesn't Mind - Gregori Klosman Remix,track
+Go Down Deh (feat. Shaggy and Sean Paul),track
+Ritual - Benny Benassi & BB Team Remix,track
+Kiss and Make Up,track
+"Supersonic (My Existence) [with Noisia, josh pan & Dylan Brady]",track
+Selfish Love (with Selena Gomez) - Tiësto Remix,track
+Levitating (feat. DaBaby),track
+Don’t Go (with Justin Bieber & Don Toliver),track
+Fuego,track
+It's Ours,track
+My Oh My (feat. DaBaby),track
+Split (Only U),track
+E.T.,track
+Love Is Gone - Tiësto Remix,track
+Titanium (feat. Sia),track
+Complicated (feat. Kiiara),track
+Ritual,track
+Summer Days (feat. Macklemore & Patrick Stump of Fall Out Boy) - Tiësto Remix,track
+"Ego Death (feat. Kanye West, FKA twigs & Skrillex)",track
+Beautiful,track
+God Is A Dancer (with Mabel),track
+Tek Weh Yuh Heart,track
+One Kiss (with Dua Lipa) - Valentino Khan Remix,track
+Dumpling - Remix,track
+On Repeat,track
+Or Nah - Remix,track
+AEIOU,track
+No Lie,track
+My Friends (feat. Lil Durk),track
+Satisfaction,track
+In Your Arms (For An Angel),track
+Lose You,track
+Midas Touch (2022 Remastered),track
+Saint Laurent,track
+Babylon (feat. Denzel Curry) - Skrillex & Ronny J Remix,track
+What Would You Do?,track
+Spicy,track
+All We Got (feat. KIDDO) - Ofenbach Remix,track
+The Business - 220 KID Remix,track
+UP,track
+Sugar (feat. Francesco Yates),track
+Speechless (feat. Erika Sirola),track
+Moth To A Flame (feat. The Weeknd) - Adriatique Remix,track
+G.O.A.T. (feat. Ty Dolla $ign & Bella Alubo),track
+Love Tonight - David Guetta Remix Edit,track
+Ravin',track
+Wasted,track
+I Got A Feeling,track
+I Kissed A Girl,track
+Weed Problems,track
+Beautiful (feat. Camila Cabello),track
+Lovers on the Sun (feat. Sam Martin),track
+Firework,track
+All We Got (feat. KIDDO) - Joel Corry Remix,track
+Harleys In Hawaii,track
+Call Out My Name,track
+Bam Bam (feat. Ed Sheeran),track
+Baby Boy (feat. Beyoncé ),track
+All We Got (feat. KIDDO),track
+Dangerous,track
+The Business - SWACQ Remix,track
+Agarra Mi Mano,track
+When I’m Gone (with Katy Perry),track
+Play Hard (feat. Ne-Yo & Akon) - New Edit,track
+When I'm Gone,track
+Crazy What Love Can Do,track
+Take My Breath - Single Version,track
+I'm Good (Blue) - REAPER Extended Remix,track
+Who You Love (feat. Katy Perry),track
+Hot In It,track
+BLUE,track
+"Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack) - DJ LBR Remix",track
+Baila Conmigo,track
+One Kiss (with Dua Lipa) - Oliver Heldens Remix,track
+Bailando - English Version,track
+Vibe Like This,track
+Moth To A Flame (with The Weeknd) - Extended Mix,track
+Somewhere Over the Rainbow / What a Wonderful World,track
+So Good (feat. Ty Dolla $ign),track
+Bad Man - Skrillex Remix,track
+Chemicals (feat. Thomas Troelsen),track
+Hey Ma (with J Balvin & Pitbull feat. Camila Cabello),track
+Can U Dance (To My Beat),track
+Pepas - David Guetta Remix - Radio Edit,track
+Harder (feat. Talay Riley),track
+Hot in It,track
+Savage,track
+Drive,track
+No Lie - Delirious & Alex K Remix,track
+Make It Bun Dem,track
+Give It Up to Me,track
+Earthquake,track
+One Kiss (with Dua Lipa),track
+Ghost,track
+Can't Believe (feat. Ty Dolla $ign & WizKid),track
+Crick Neck,track
+Last Hurrah - David Guetta Remix,track
+Contra La Pared - GTA Remix,track
+Know No Better,track
+After Hours,track
+Love Me Harder,track
+Swalla (feat. Nicki Minaj & Ty Dolla $ign),track
+Supersonic (VIP),track
+Universe,track
+"Fuego (with Sean Paul & Anitta, feat. Tainy)",track
+Break the Rules - Tiësto Remix,track
+Shot Me Down (feat. Skylar Grey) - Radio Edit,track
+Let Me Love You - Sean Paul Remix,track
+Cold Heart - PS1 Remix,track
+Hero,track
+Dark Horse,track
+Written In Reverse,track
+New Love - Paraone Remix,track
+Family,track
+Got 2 Luv U (feat. Alexis Jordan),track
+Break My Heart,track
+I Was Never There,track
+I'm Still In Love With You,track
+Southern Sun - DJ Tiësto Remix,track
+Save Your Tears,track
+Tip Pon It,track
+How Deep Is Your Love (feat. Kelly Rowland),track
+Alone for Christmas,track
+Electricity (with Dua Lipa),track
+Hey Mama,track
+"Party Tun Up Remix (feat. Sean Paul, Fatman Scoop)",track
+Levitating,track
+Purple Lamborghini (with Rick Ross),track
+Nothing Really Matters,track
+We Be Burnin',track
+(When You Gonna) Give It Up to Me (feat. Keyshia Cole) - Radio Version,track
+In Your Eyes (feat. Alida),track
+Play Hard (feat. Ne-Yo & Akon),track
+If You Really Love Me (How Will I Know),track
+Ocean (feat. Khalid) - David Guetta Remix,track
+Rockabye (feat. Sean Paul & Anne-Marie),track
+Drive - Edit,track
+The First Note Is Silent (feat. Tiësto & Underworld) - Instrumental,track
+I Won,track
+So Far Away (feat. Jamie Scott & Romy Dya),track
+Tears In The Club (feat. The Weeknd),track
+Rockstar Baby (feat. Mougleta),track
+Moth To A Flame,track
+Carry You Home (feat. StarGate & Aloe Blacc),track
+Bad Things,track
+Memories (feat. Kid Cudi),track
+Contra La Pared,track
+Dangerous Love,track
+She Doesn't Mind - DJ Laszlo Radio Edit,track
+Sunshine,track
+Jackie Chan - Keanu Silva Remix,track
+HUMBLE. - SKRILLEX REMIX,track
+Lifetime (with Ty Dolla $ign & 070 Shake),track
+New Rules - Acoustic,track
+Bad Love,track
+Cinderella,track
+Dangerous - David Guetta Banging Remix,track
+Waves - Robin Schulz Radio Edit,track
+Let Me Love You - Tiësto's AFTR:HRS Mix,track
+"Or Nah (feat. The Weeknd, Wiz Khalifa & DJ Mustard) - Remix",track
+Rockabye,track
+Over Now (with The Weeknd),track
+The Business,track
+Floating Through Space,track
+Summer Paradise (feat. Sean Paul) - Single Version,track
+UN DIA (ONE DAY),track
+Remember,track
+Don't Be Shy,track
+Cozy Little Christmas,track
+Gimme the Light,track
+Freedom,track
+Homesick,track
+Family Affair (Dance for Me),track
+WARLORDZ (feat. Skrillex),track
+In Your Eyes (feat. Alida) - LUM!X Remix,track
+BOOM,track
+Sun Will Shine,track
+Cold Heart - Acoustic,track
+One Kiss,track
+Hot In It - Tiësto’s Hotter Mix,track
+Where Are Ü Now (with Justin Bieber),track
+Rockin' Around The Christmas Tree - From The Kacey Musgraves Christmas Show,track
+Red Lights,track
+"Family (feat. Bebe Rexha, Ty Dolla $ign & A Boogie Wit da Hoodie)",track
+You Right,track
+Alane,track
+Sahara,track
+Hawái - Remix,track
+tears in the club (feat. the weeknd),track
+OK,track
+By Yourself,track
+The Hills,track
+Sun Goes Down (feat. Jasmine Thompson) - Radio Mix,track
+Miss You,track
+All The Way Up (Remix),track
+Body,track
+Ego Death,track
+Something New,track
+I’ll Take You High,track
+So Me Stay,track
+"Feels (feat. Pharrell Williams, Katy Perry & Big Sean)",track
+Dynamite,track
+Instagram - R3HAB Remix,track
+The Motto - Robin Schulz Remix,track
+No Lie - Sam Feldt Remix,track
+Pepas - Tiësto Remix,track
+Make It (feat. The Weeknd) [DJAmg Remixer],track
+Calling On Me (feat. Tove Lo),track
+Without You (feat. Usher),track
+Heatwave (feat. Akon),track
+Bun Up the Dance,track
+Die For You,track
+Sugar,track
+WOW,track
+Prayer in C - Robin Schulz Radio Edit,track
+Calling On Me,track
+BED,track
+Pineapple,track
+Your Love (9PM) - Tiësto Remix,track
+I'm Good (Blue) - Extended,track
+If Only,track
+Instagram,track
+Odd Look,track
+Bangarang (feat. Sirah),track
+Famous,track
+Dynamite (feat. Sia),track
+Pump It Louder,track
+Love U Better,track
+Sexy Bitch (feat. Akon),track
+She Doesn't Mind,track
+"The Island, Pt. 1 (Dawn) - Skrillex Remix",track
+Spicy (feat. Post Malone),track
+"Moth To A Flame (with The Weeknd, Moojo) - Moojo Remix",track
+Oh Child,track
+In My Room (feat. Ty Dolla $ign & Tyga),track
+New Rules,track
+Boasty (feat. Idris Elba),track
+Mi Persona Favorita,track
+Señorita,track
+Young Right Now,track
+Moth To A Flame (with The Weeknd),track
+Imagine - Tiësto Remix,track
+Sugar (feat. Francesco Yates) - Billions Club Remix,track
+Light My Fire (feat. Gwen Stefani & Shenseea),track
+Lost in the Fire (feat. The Weeknd),track
+Scared To Be Lonely - Brooks Remix,track
+Physical,track
+Seavolution (From Hotel Transylvania 3),track
+UN DIA (ONE DAY) (Feat. Tainy),track
+Attention - David Guetta Remix,track
+Wave Rider (From Hotel Transylvania 3),track
+Un Día (One Day),track
+In Your Eyes,track
+Enola Gay - Dancefloor Killa Remix Edit,track
+Shot & Wine,track
+Blinding Lights,track
+God is A DJ,track
+Say My Name,track
+God Is A Dancer,track
+Vibe Like This (feat. Ty Dolla $ign & Lucky Daye),track
+God is A DJ - Extended,track
+She Doesn't Mind - Pitbull Remix,track
+Electric - Pokemon 25 Version,track
+Gettin' over You - Aviccii's Vocal Mix at Night,track
+Mind (feat. Kai),track
+I'm Good (Blue) - REAPER Remix,track
+Red Lips (feat. Sam Bruno) - Skrillex Remix,track
+tears in the club,track
+365,track
+I'm Good (Blue),track
+The Motto,track
+Headlights (feat. Ilsey),track
+God Is A Dancer - Toby Green Remix,track
+Paranoid,track
+STARSTRUKK (feat. Katy Perry),track
+Jump On It,track
+L'amour toujours (feat. Delaney Jane) - Tiësto Edit,track
+Other Side of Love,track
+365 - Zedd Remix,track
+I'm Still in Love with You (feat. Sasha),track
+The Only Way Is Up,track
+Domino - David Guetta Remix,track
+High (& Dua Lipa),track
+When It Comes To You,track
+International - Skrillex Remix,track
+Another Life,track
+Mind Dimension - Tiësto Remix,track
+Dynamite (feat. Sia & Miss Lafamilia) [Banx N Ranx Remix],track
+Con Calma - Remix,track
+Silence - Tiësto's Big Room Remix,track
+Potion (with Dua Lipa & Young Thug),track
+One Kiss (with Dua Lipa) - R3HAB Remix,track
+I Feel It Coming,track
+Never Be the Same,track
+IDGAF,track
+Heartbreak Anthem (with David Guetta & Little Mix),track
+Pop,genre
+World,genre
+R&B,genre
+Folk,genre
+Alternative,genre
+Rock,genre
+Indie,genre
+Acoustic,genre
+House / Electronic,genre
+Rap / Hiphop,genre

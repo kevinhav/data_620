@@ -144,8 +144,8 @@ def get_top_n_artists(df: pl.DataFrame, n: int = 5) -> pl.Series:
 def build_nodes(df: pl.DataFrame) -> pl.DataFrame:
     """Build artist, track, and genre node DataFrames and concatenate.
 
-    Genre nodes include a genre_category attribute mapped from GENRE_MAP.
-    Artist and track nodes will have null for genre_category.
+    Genre nodes use genre_category as the id (e.g. "House / Electronic").
+    Multiple granular genres map to the same category node via GENRE_MAP.
     """
     artist_nodes = (
         df.select(pl.col("artists").alias("id"))
@@ -160,10 +160,9 @@ def build_nodes(df: pl.DataFrame) -> pl.DataFrame:
     )
 
     genre_nodes = (
-        df.select(pl.col("track_genre").alias("id"))
+        df.select(pl.col("track_genre").replace(GENRE_MAP).alias("id"))
         .unique()
         .with_columns(pl.lit("genre").alias("type"))
-        .with_columns(pl.col("id").replace(GENRE_MAP).alias("genre_category"))
     )
 
     return pl.concat([artist_nodes, track_nodes, genre_nodes], how="diagonal")
@@ -179,7 +178,7 @@ def build_edges(df: pl.DataFrame) -> pl.DataFrame:
 
     track_genre_edges = df.select(
         pl.col("track_name").alias("source"),
-        pl.col("track_genre").alias("target"),
+        pl.col("track_genre").replace(GENRE_MAP).alias("target"),
         pl.lit("track_genre").alias("relationship"),
     ).unique()
 

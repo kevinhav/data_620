@@ -10,7 +10,8 @@
       "WebFetch(domain:developer.spotify.com)",
       "Bash(PYTHONUTF8=1 uv run:*)",
       "Bash(git stash:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(uv run project1/data.py)"
     ]
   }
 }

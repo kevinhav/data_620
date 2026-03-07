@@ -184,19 +184,72 @@ def build_edges(df: pl.DataFrame) -> pl.DataFrame:
 
     return pl.concat([artist_track_edges, track_genre_edges])
 
-
 def save(nodes: pl.DataFrame, edges: pl.DataFrame, output_dir: Path) -> None:
     """Write nodes.csv and edges.csv to output_dir."""
     output_dir.mkdir(exist_ok=True)
     nodes.write_csv(output_dir / "nodes.csv")
     edges.write_csv(output_dir / "edges.csv")
 
+def build_artist_artist_edges(df: pl.DataFrame) -> pl.DataFrame:
+    """
+    Build an artist-only collaboration edge list:
+    Connect two artists if they appear on the same track.
+    Weight = # of tracks they share.
+    """
+    ta = df.select(["track_id", "artists"]).unique()
+
+    pairs = (
+        ta.join(ta, on="track_id", how="inner", suffix="_b")
+        .filter(pl.col("artists") < pl.col("artists_b"))  # keep unique pairs
+        .group_by(["artists", "artists_b"])
+        .agg(pl.len().alias("weight"))
+        .rename({"artists": "source", "artists_b": "target"})
+        .with_columns(pl.lit("artist_artist").alias("relationship"))
+    )
+    return pairs
+
+def build_artist_attributes(df: pl.DataFrame) -> pl.DataFrame:
+    """
+    Create one row per artist with:
+    - primary_genre (most common genre category)
+    - popularity (mean or max, your choice)
+    - n_tracks
+    """
+    df2 = df.with_columns(
+        pl.col("track_genre").replace(GENRE_MAP).alias("broad_genre")
+    )
+
+    # primary genre = mode (most common)
+    primary = (
+        df2.group_by(["artists", "broad_genre"])
+        .agg(pl.len().alias("cnt"))
+        .sort(["artists", "cnt"], descending=[False, True])
+        .group_by("artists")
+        .agg(pl.first("broad_genre").alias("primary_genre"))
+    )
+
+    stats = (
+        df2.group_by("artists")
+        .agg(
+            pl.col("track_id").n_unique().alias("n_tracks"),
+            pl.col("popularity").mean().alias("popularity_mean"),
+            pl.col("popularity").max().alias("popularity_max"),
+        )
+    )
+
+    return primary.join(stats, on="artists", how="inner").rename({"artists": "artist"})
 
 if __name__ == "__main__":
-    df = pl.read_csv(Path(r"project1\dataset.csv"))
+    df = pl.read_csv(Path(r"project1/dataset.csv"))
     df = split_artists(df)
-    top_artists = get_top_n_artists(df, n=10)
+    top_artists = get_top_n_artists(df, n=1000)
     df_top = df.filter(pl.col("artists").is_in(top_artists.to_list()))
     nodes = build_nodes(df_top)
-    edges = build_edges(df_top)
-    save(nodes, edges, Path(r"project1\processed"))
+    edges_mixed = build_edges(df_top)
+    edges_artist = build_artist_artist_edges(df_top)
+    artist_attrs = build_artist_attributes(df_top)
+
+    out = Path("project1/processed")
+    save(nodes, edges_mixed, out)
+    edges_artist.write_csv(out / "artist_artist_edges.csv")
+    artist_attrs.write_csv(out / "artist_attributes.csv")

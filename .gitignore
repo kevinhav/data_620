@@ -22,3 +22,5 @@ Thumbs.db
 
 # Secrets
 .env
+
+networkx_reference.py

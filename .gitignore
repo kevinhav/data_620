@@ -24,3 +24,6 @@ Thumbs.db
 .env
 
 networkx_reference.py
+
+# Data file
+*.txt.gz

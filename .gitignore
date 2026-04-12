@@ -27,3 +27,5 @@ networkx_reference.py
 
 # Data file
 *.txt.gz
+
+*.csv

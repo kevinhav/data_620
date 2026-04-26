@@ -20,4 +20,5 @@ dependencies = [
     "statsmodels>=0.14.6",
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
+    "gensim>=4.4.0",
 ]

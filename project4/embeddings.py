@@ -4,8 +4,10 @@ import numpy as np
 import seaborn as sns
 from matplotlib.figure import Figure
 from sklearn.metrics.pairwise import cosine_similarity
+from itertools import combinations
+import pandas as pd
 
-# Will need to downloand and cache on first run
+# Will need to download and cache on first run
 GLOVE = api.load("glove-wiki-gigaword-300")
 
 
@@ -33,7 +35,7 @@ class Embedder:
             "full",
             "royal",
         ]
-
+    
     def get_glove_embeddings(self) -> np.ndarray:
         "Load GloVe word embeddings"
 
@@ -61,7 +63,7 @@ class Embedder:
             raise ValueError(
                 "Could not compute similarity matrix with current embeddings"
             )
-
+            
     def plot_similarity_matrix(self) -> Figure:
         if self.similarity_matrix is None:
             raise ValueError("No similarity matrix found")
@@ -109,3 +111,44 @@ class Embedder:
 
 if __name__ == "__main__":
     Embedder(words=[]).demo()
+
+def mean_pairwise_similarity(indices, similarity_matrix):
+        """
+        Computes mean cosine similarity across all pairs in a group.
+        """
+        pair_scores = []
+    
+        for i, j in combinations(indices, 2):
+            pair_scores.append(similarity_matrix[i, j])
+    
+        return np.mean(pair_scores)
+    
+def rank_word_combinations(words, similarity_matrix):
+        """
+        Scores every possible 4-word combination.
+        """
+        rows = []
+    
+        for combo_indices in combinations(range(len(words)), 4):
+            combo_words = tuple(words[i] for i in combo_indices)
+    
+            score = mean_pairwise_similarity(
+                combo_indices,
+                similarity_matrix
+            )
+    
+            rows.append({
+                "combo_words": combo_words,
+                "combo_indices": combo_indices,
+                "mean_cosine_similarity": score
+            })
+    
+        ranked_df = pd.DataFrame(rows)
+    
+        ranked_df = ranked_df.sort_values(
+            by="mean_cosine_similarity",
+            ascending=False
+        ).reset_index(drop=True)
+    
+        return ranked_df
+    

@@ -25,3 +25,9 @@ class DataLoader:
         ]
         self.df = pd.json_normalize(data, record_path=["answers"], meta=["id", "date"])
         self.df["date"] = pd.to_datetime(self.df["date"])
+
+    def get_puzzle(self, index):
+        """
+        Returns one puzzle dictionary.
+        """
+        return self.raw[index]
